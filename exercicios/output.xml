@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211020 18:36:09.663" rpa="false" schemaversion="2">
+<suite id="s1" name="Testes" source="C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\testes">
+<suite id="s1-s1" name="Exercicio Frutas 19 10 21" source="C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\testes\exercicio_frutas_19_10_21.robot">
+<test id="s1-s1-t1" name="Impressão da lista de frutas linha por linha">
+<kw name="Recebo e imprimo a lista">
+<arg>${Lista_De_Frutas}</arg>
+<msg timestamp="20211020 18:36:09.699" level="FAIL">No keyword with name 'Recebo e imprimo a lista' found.</msg>
+<status status="FAIL" starttime="20211020 18:36:09.699" endtime="20211020 18:36:09.699"/>
+</kw>
+<doc>Impressão linha por linha da lista de frutas</doc>
+<tag>fruta_test</tag>
+<status status="FAIL" starttime="20211020 18:36:09.696" endtime="20211020 18:36:09.700">No keyword with name 'Recebo e imprimo a lista' found.</status>
+</test>
+<status status="FAIL" starttime="20211020 18:36:09.692" endtime="20211020 18:36:09.701"/>
+</suite>
+<status status="FAIL" starttime="20211020 18:36:09.665" endtime="20211020 18:36:09.702"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">fruta_test</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testes">Testes</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Exercicio Frutas 19 10 21">Testes.Exercicio Frutas 19 10 21</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211020 18:36:09.656" level="ERROR">Error in file 'C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\testes\exercicio_frutas_19_10_21.robot' on line 3: Non-existing setting '[Documentation]'. Did you mean:
+    Documentation</msg>
+<msg timestamp="20211020 18:36:09.658" level="ERROR">Error in file 'C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\testes\exercício_variáveis_19_10_21.robot' on line 2: Non-existing setting '[Documentation]'. Did you mean:
+    Documentation</msg>
+<msg timestamp="20211020 18:36:09.695" level="ERROR">Error in file 'C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\testes\exercicio_frutas_19_10_21.robot' on line 4: Resource file 'exercicios\resourcesfrutas.robot' does not exist.</msg>
+</errors>
+</robot>
