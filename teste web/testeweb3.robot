@@ -34,7 +34,7 @@ Clicar no botão de vestidos
     Click Link    ${summer}
 
 Esperar o produto se tornar visível
-    SeleniumLibrary.Wait Until Element Is Visible   ${dress}
+    Wait Until Element Is Visible   ${dress}
 
 Fechar chrome
     Close browser

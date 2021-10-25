@@ -1,84 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211024 00:58:02.415" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211025 19:14:53.861" rpa="false" schemaversion="2">
 <suite id="s1" name="Testeweb4" source="C:\Users\Vinicius\Desktop\Projects\Prime_Experts_18.10.2021\prime_experts_18-10-2021\teste web\testeweb4.robot">
 <kw name="Abrir chrome" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>browser=Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20211024 00:58:02.656" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20211024 00:58:02.656" endtime="20211024 00:58:04.134"/>
+<msg timestamp="20211025 19:14:54.094" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20211025 19:14:54.093" endtime="20211025 19:14:55.268"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:02.655" endtime="20211024 00:58:04.134"/>
+<status status="PASS" starttime="20211025 19:14:54.093" endtime="20211025 19:14:55.269"/>
 </kw>
 <test id="s1-t1" name="Teste da Web">
 <kw name="Ir para a página inicial do automationpractice">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>${Link}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20211024 00:58:04.135" level="INFO">Opening url 'http://automationpractice.com/'</msg>
-<status status="PASS" starttime="20211024 00:58:04.135" endtime="20211024 00:58:09.453"/>
+<msg timestamp="20211025 19:14:55.270" level="INFO">Opening url 'http://automationpractice.com/'</msg>
+<status status="PASS" starttime="20211025 19:14:55.270" endtime="20211025 19:15:02.267"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:04.135" endtime="20211024 00:58:09.454"/>
+<status status="PASS" starttime="20211025 19:14:55.269" endtime="20211025 19:15:02.267"/>
 </kw>
 <kw name="Clicar em sign in">
 <kw name="Click Link" library="SeleniumLibrary">
 <arg>${sign}</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<msg timestamp="20211024 00:58:09.455" level="INFO">Clicking link '//a[@href='http://automationpractice.com/index.php?controller=my-account']'.</msg>
-<status status="PASS" starttime="20211024 00:58:09.454" endtime="20211024 00:58:12.332"/>
+<msg timestamp="20211025 19:15:02.268" level="INFO">Clicking link '//a[@href='http://automationpractice.com/index.php?controller=my-account']'.</msg>
+<status status="PASS" starttime="20211025 19:15:02.268" endtime="20211025 19:15:04.869"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:09.454" endtime="20211024 00:58:12.333"/>
+<status status="PASS" starttime="20211025 19:15:02.267" endtime="20211025 19:15:04.870"/>
 </kw>
-<kw name="Digitar johndoe32193812@hotmail.com na caixa de pesquisa" sourcename="Digitar ${email} na caixa de pesquisa">
+<kw name="Digitar johndoe3219812@hotmail.com na caixa de pesquisa" sourcename="Digitar ${email} na caixa de pesquisa">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${txtbox}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20211024 00:58:12.333" endtime="20211024 00:58:12.357"/>
+<status status="PASS" starttime="20211025 19:15:04.870" endtime="20211025 19:15:04.894"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${txtbox}</arg>
 <arg>${email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20211024 00:58:12.358" level="INFO">Typing text 'johndoe32193812@hotmail.com' into text field '//input[contains(@id,'email_create')]'.</msg>
-<status status="PASS" starttime="20211024 00:58:12.358" endtime="20211024 00:58:12.429"/>
+<msg timestamp="20211025 19:15:04.895" level="INFO">Typing text 'johndoe3219812@hotmail.com' into text field '//input[contains(@id,'email_create')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:04.895" endtime="20211025 19:15:04.966"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:12.333" endtime="20211024 00:58:12.429"/>
+<status status="PASS" starttime="20211025 19:15:04.870" endtime="20211025 19:15:04.966"/>
 </kw>
 <kw name="Clicar em criar conta">
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>${create}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20211024 00:58:12.430" level="INFO">Clicking button '//button[contains(.,'Create an account')]'.</msg>
-<status status="PASS" starttime="20211024 00:58:12.429" endtime="20211024 00:58:12.481"/>
+<msg timestamp="20211025 19:15:04.967" level="INFO">Clicking button '//button[contains(.,'Create an account')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:04.967" endtime="20211025 19:15:05.020"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:12.429" endtime="20211024 00:58:12.481"/>
+<status status="PASS" starttime="20211025 19:15:04.966" endtime="20211025 19:15:05.020"/>
 </kw>
 <kw name="Preencher o questionário">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>//input[@id='id_gender1']</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20211024 00:58:12.482" endtime="20211024 00:58:13.957"/>
+<status status="PASS" starttime="20211025 19:15:05.021" endtime="20211025 19:15:06.335"/>
 </kw>
 <kw name="Select Radio Button" library="SeleniumLibrary">
 <arg>id_gender</arg>
 <arg>1</arg>
 <doc>Sets the radio button group ``group_name`` to ``value``.</doc>
-<msg timestamp="20211024 00:58:13.958" level="INFO">Selecting '1' from radio button 'id_gender'.</msg>
-<status status="PASS" starttime="20211024 00:58:13.957" endtime="20211024 00:58:14.003"/>
+<msg timestamp="20211025 19:15:06.335" level="INFO">Selecting '1' from radio button 'id_gender'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.335" endtime="20211025 19:15:06.383"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:12.482" endtime="20211024 00:58:14.003"/>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'customer_firstname')]</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.384" level="INFO">Typing text 'John' into text field '//input[contains(@id,'customer_firstname')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.383" endtime="20211025 19:15:06.456"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'customer_lastname')]</arg>
+<arg>Doe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.456" level="INFO">Typing text 'Doe' into text field '//input[contains(@id,'customer_lastname')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.456" endtime="20211025 19:15:06.521"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@data-validate,'isPasswd')]</arg>
+<arg>090807060504030201</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.521" level="INFO">Typing text '090807060504030201' into text field '//input[contains(@data-validate,'isPasswd')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.521" endtime="20211025 19:15:06.593"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//select[contains(@id,'days')]</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20211025 19:15:06.594" level="INFO">Selecting options from selection list '//select[contains(@id,'days')]' by value 3.</msg>
+<status status="PASS" starttime="20211025 19:15:06.594" endtime="20211025 19:15:06.652"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//select[contains(@id,'months')]</arg>
+<arg>6</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20211025 19:15:06.653" level="INFO">Selecting options from selection list '//select[contains(@id,'months')]' by value 6.</msg>
+<status status="PASS" starttime="20211025 19:15:06.652" endtime="20211025 19:15:06.709"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//select[contains(@id,'years')]</arg>
+<arg>1999</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20211025 19:15:06.709" level="INFO">Selecting options from selection list '//select[contains(@id,'years')]' by value 1999.</msg>
+<status status="PASS" starttime="20211025 19:15:06.709" endtime="20211025 19:15:06.759"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='firstname']</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.760" level="INFO">Typing text 'John' into text field '//input[@id='firstname']'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.759" endtime="20211025 19:15:06.832"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='lastname']</arg>
+<arg>Doe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.833" level="INFO">Typing text 'Doe' into text field '//input[@id='lastname']'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.833" endtime="20211025 19:15:06.899"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'company')]</arg>
+<arg>Prime</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.899" level="INFO">Typing text 'Prime' into text field '//input[contains(@id,'company')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.899" endtime="20211025 19:15:06.997"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'address1')]</arg>
+<arg>Avenida Paulista, 1300</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:06.998" level="INFO">Typing text 'Avenida Paulista, 1300' into text field '//input[contains(@id,'address1')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:06.998" endtime="20211025 19:15:07.073"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'address2')]</arg>
+<arg>Avenida Benedito de Andrade</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.074" level="INFO">Typing text 'Avenida Benedito de Andrade' into text field '//input[contains(@id,'address2')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.074" endtime="20211025 19:15:07.155"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'city')]</arg>
+<arg>West Virginia</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.155" level="INFO">Typing text 'West Virginia' into text field '//input[contains(@id,'city')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.155" endtime="20211025 19:15:07.228"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//select[contains(@id,'id_state')]</arg>
+<arg>48</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20211025 19:15:07.228" level="INFO">Selecting options from selection list '//select[contains(@id,'id_state')]' by value 48.</msg>
+<status status="PASS" starttime="20211025 19:15:07.228" endtime="20211025 19:15:07.285"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'postcode')]</arg>
+<arg>02936</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.286" level="INFO">Typing text '02936' into text field '//input[contains(@id,'postcode')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.286" endtime="20211025 19:15:07.357"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//select[contains(@id,'id_country')]</arg>
+<arg>21</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20211025 19:15:07.357" level="INFO">Selecting options from selection list '//select[contains(@id,'id_country')]' by value 21.</msg>
+<status status="PASS" starttime="20211025 19:15:07.357" endtime="20211025 19:15:07.390"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//textarea[contains(@id,'other')]</arg>
+<arg>Teste Prime</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.391" level="INFO">Typing text 'Teste Prime' into text field '//textarea[contains(@id,'other')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.391" endtime="20211025 19:15:07.457"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id='phone']</arg>
+<arg>39990146</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.458" level="INFO">Typing text '39990146' into text field '//input[@id='phone']'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.457" endtime="20211025 19:15:07.526"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'phone_mobile')]</arg>
+<arg>953528692</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.527" level="INFO">Typing text '953528692' into text field '//input[contains(@id,'phone_mobile')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.527" endtime="20211025 19:15:07.598"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[contains(@id,'alias')]</arg>
+<arg>Praça Yara</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:07.599" level="INFO">Typing text 'Praça Yara' into text field '//input[contains(@id,'alias')]'.</msg>
+<status status="PASS" starttime="20211025 19:15:07.599" endtime="20211025 19:15:07.672"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<arg>Esperar o Estado Estar Visível</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211025 19:15:12.688" level="INFO">Slept 5 seconds</msg>
+<msg timestamp="20211025 19:15:12.688" level="INFO">Esperar o Estado Estar Visível</msg>
+<status status="PASS" starttime="20211025 19:15:07.672" endtime="20211025 19:15:12.688"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="submitAccount"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211025 19:15:12.688" level="INFO">Clicking button '//*[@id="submitAccount"]'.</msg>
+<status status="PASS" starttime="20211025 19:15:12.688" endtime="20211025 19:15:14.128"/>
+</kw>
+<status status="PASS" starttime="20211025 19:15:05.020" endtime="20211025 19:15:14.128"/>
 </kw>
 <tag>test_browser</tag>
-<status status="PASS" starttime="20211024 00:58:04.134" endtime="20211024 00:58:14.004"/>
+<status status="PASS" starttime="20211025 19:14:55.269" endtime="20211025 19:15:14.128"/>
 </test>
 <kw name="Fechar chrome" type="TEARDOWN">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20211024 00:58:14.005" endtime="20211024 00:58:16.129"/>
+<status status="PASS" starttime="20211025 19:15:14.130" endtime="20211025 19:15:16.272"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:14.005" endtime="20211024 00:58:16.129"/>
+<status status="PASS" starttime="20211025 19:15:14.130" endtime="20211025 19:15:16.272"/>
 </kw>
-<status status="PASS" starttime="20211024 00:58:02.417" endtime="20211024 00:58:16.129"/>
+<doc>A automatização deve entrar no endereço http://automationpractice.com/ , clicar em SIGN IN, digitar um e-mail válido na caixa de texto, e preencher as informações necessárias para efetuar o cadastro de novo cliente.</doc>
+<status status="PASS" starttime="20211025 19:14:53.863" endtime="20211025 19:15:16.272"/>
 </suite>
 <statistics>
 <total>

@@ -35,7 +35,7 @@ Clicar no botão de pesquisar o produto
     Click Button    ${lupa}
 
 Esperar o produto se tornar visível
-    SeleniumLibrary.Wait Until Element Is Visible   ${blusa}
+    Wait Until Element Is Visible   ${blusa}
 
 Fechar chrome
     Close browser
